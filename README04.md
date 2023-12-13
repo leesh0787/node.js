@@ -6,3 +6,7 @@ const [num, setNum] = useState(0)
 num을 변하게 하는 함수 ==> setNum --> 함수를 이용하여 num을 변경한다
 useState(0)의 0은 num의 초기값
 ```
+
+
+# 부분적으로 값 받기
+![image](https://github.com/leesh0787/react/assets/131154479/0994b688-99e0-4b63-9a14-1748e64f690e)
