@@ -12,7 +12,19 @@ useState(0)의 0은 num의 초기값
 ![image](https://github.com/leesh0787/react/assets/131154479/0994b688-99e0-4b63-9a14-1748e64f690e)
 
 ```
-// 구조분해 destructure
+import React from 'react'
+
+const Profile = (props) => {
+  // || --> a || b 둘중에 하나라도 true이면 true
+  // && --> a && b 둘 다 true 이어야 true
+
+  console.log(props)
+
+  // const img = props.img
+  // const name = props.name
+  // const title = props.title
+
+  // 구조분해 destructure
   const {img,name,title,isNew}= props
   return (
     <div className='profile'>
