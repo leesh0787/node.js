@@ -10,3 +10,20 @@ useState(0)의 0은 num의 초기값
 
 # 부분적으로 값 받기
 ![image](https://github.com/leesh0787/react/assets/131154479/0994b688-99e0-4b63-9a14-1748e64f690e)
+
+```
+// 구조분해 destructure
+  const {img,name,title,isNew}= props
+  return (
+    <div className='profile'>
+        <img src={img} alt="avatar"/>
+        {/* {props.isNew?<span className='new'>신입</span>:""} */}
+        {isNew&&<span className='new'>신입</span>}
+        <h2>{name}</h2>
+        <p>{title}</p>
+    </div>
+  )
+}
+
+export default Profile
+```
