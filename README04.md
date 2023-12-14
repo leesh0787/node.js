@@ -12,6 +12,8 @@ useState(0)의 0은 num의 초기값
 ![image](https://github.com/leesh0787/react/assets/131154479/0994b688-99e0-4b63-9a14-1748e64f690e)
 
 ```
+// 폴더 src2 참조
+
 import React from 'react'
 
 const Profile = (props) => {
